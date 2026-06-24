@@ -1,0 +1,19 @@
+# Databases and state
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+ruvector.db
+.swarm/memory.db*
+
+# OS and system files
+.DS_Store
+Thumbs.db
+
+# Claude Flow runtime directories
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+.claude-flow/neural/
+*.log
+*.tmp
